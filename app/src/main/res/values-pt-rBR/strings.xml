@@ -38,7 +38,7 @@
     <!-- Chapters -->
     <string name="chapters">Capítulos</string>
     <string name="new_chapters">Novos capítulos</string>
-    <string name="unread">Não lidos</string>
+    <string name="unread">Não lido</string>
     <string name="last_read_chapter_">Última leitura do capítulo %1$s</string>
     <string name="chapter_">Capítulo %1$s</string>
     <string name="chapter_x_of_y">Capítulo %1$d de %2$d</string>
@@ -57,8 +57,8 @@
         <item quantity="other">%1$d Capítulos</item>
     </plurals>
     <plurals name="pages_left">
-        <item quantity="one">%1$d página restante</item>
-        <item quantity="other">%1$d páginas restantes</item>
+        <item quantity="one">Resta %1$d página</item>
+        <item quantity="other">Restam %1$d páginas</item>
     </plurals>
 
     <!-- Category -->
@@ -75,9 +75,10 @@
     <string name="categories_on_manual">Categorias a atualizar ao atualizar manualmente</string>
     <string name="categories_in_global_update">Todas as categorias na atualização global</string>
     <string name="confirm_category_deletion">Excluir categoria?</string>
-    <string name="confirm_category_deletion_message">O mangá nesta categoria será movido
+    <string name="confirm_category_deletion_message">O mangá nesta categoria será movido 
         para a categoria padrão.</string>
     <string name="already_in_category">O manga já na categoria</string>
+    <string name="add_category">Adicionar categoria</string>
     <string name="edit_categories">Editar categorias</string>
     <string name="manage_category">Gerenciar categoria</string>
     <string name="rename_category">Renomear categoria</string>
@@ -110,7 +111,7 @@
     <string name="local">Local</string>
     <string name="remove_from_library_question">Remover da biblioteca?</string>
     <string name="library_search_hint">Pesquisar título, tags, fonte</string>
-    <string name="library_is_empty_add_from_browse">Sua biblioteca está vazia, adicione séries
+    <string name="library_is_empty_add_from_browse">Sua biblioteca está vazia, adicione séries 
         à sua biblioteca na aba Navegar.</string>
     <string name="no_matches_for_filters">Não foram encontradas correspondências para os seus filtros atuais</string>
     <string name="show_all_categories">Mostrar todas as categorias</string>
@@ -148,11 +149,13 @@
     <string name="large">G</string>
     <string name="x_large">XG</string>
     <string name="grid_options">Opções de grade</string>
-    <string name="hide_badges">Ocultar emblemas</string>
-    <string name="show_badges">Mostrar emblemas</string>
+    <string name="hide_badges">Ocultá-los</string>
+    <string name="show_badges">Mostrá-los</string>
     <string name="show_count">Mostrar contagem</string>
     <string name="tap_library_to_show_filters">Toque no ícone Biblioteca para mostrar os filtros</string>
     <string name="display_as">Mostrar como</string>
+    <string name="hide_category_hopper">Ocultar o pulador de categoria</string>
+    <string name="more_library_settings">Mais configurações da biblioteca</string>
 
     <!-- Library update service notifications -->
     <string name="new_chapters_found">Novos capítulos encontrados</string>
@@ -173,14 +176,14 @@
     <string name="library_update_restriction_summary">Atualizar somente quando as condições forem atendidas</string>
     <string name="only_update_ongoing">Atualizar apenas mangás em andamento</string>
     <string name="sort_by_ignoring_articles">Classificar por ignorar artigos</string>
-    <string name="when_sorting_ignore_articles">Ao classificar em ordem alfabética, ignore artigos
+    <string name="when_sorting_ignore_articles">Ao classificar em ordem alfabética, ignore artigos 
     (a, an, the) no início dos títulos de mangá</string>
-    <string name="use_last_saved_migration_preferences">Usar as últimas preferências de pré-migração
+    <string name="use_last_saved_migration_preferences">Usar as últimas preferências de pré-migração 
     salvas e fontes para migrar em massa</string>
     <string name="categories_to_include_in_global_update">Categorias a serem incluídas na atualização global</string>
     <string name="include_in_global_update">Incluir na atualização global</string>
     <string name="auto_refresh_covers">Atualizar automaticamente as capas</string>
-    <string name="auto_refresh_covers_summary">Atualizar capas na biblioteca também
+    <string name="auto_refresh_covers_summary">Atualizar capas na biblioteca também 
         ao atualizar a biblioteca</string>
 
     <!-- Recents -->
@@ -191,14 +194,14 @@
     <string name="recent_updates">Atualizações da biblioteca</string>
     <string name="this_will_remove_the_read_date_for_x_question">Isso removerá a data de leitura de
         \"%1$s\". Você tem certeza?</string>
-    <string name="this_will_remove_the_read_date_question">Esta ação removerá a data de leitura
+    <string name="this_will_remove_the_read_date_question">Esta ação removerá a data de leitura 
         deste capítulo. Tem certeza?</string>
     <string name="reset_all_chapters_for_this_">Redefina todos os capítulos para este %1$s</string>
     <string name="source_dash_chapter_">%1$s - Cap.%2$s</string>
     <string name="last_read_">Última leitura %1$s</string>
     <string name="read_">%1$s lido</string>
     <string name="updated_">%1$s atualizado</string>
-    <string name="added_">%1$s adicionados</string>
+    <string name="added_">Adicionado %1$s</string>
     <string name="view_history">Ver histórico</string>
     <string name="view_all_updates">Ver todas as atualizações</string>
     <string name="search_recents">Pesquisa recentes…</string>
@@ -252,7 +255,7 @@
     <string name="language_">Idioma: %1$s</string>
     <string name="empty_preferences_for_extension">Não há preferências a serem editadas para esta extensão</string>
     <plurals name="extension_updates_available">
-        <item quantity="one">%d atualização de extensão disponível</item>
+        <item quantity="one">Atualização de extensão disponível</item>
         <item quantity="other">%d atualizações de extensão disponíveis</item>
     </plurals>
 
@@ -280,6 +283,7 @@
     <!-- Reader settings -->
     <string name="fullscreen">Tela cheia</string>
     <string name="page_transitions">Transição de página</string>
+    <string name="disable_zoom">Desativar zoom</string>
     <string name="double_tap_anim_speed">Velocidade da animação de toque duplo</string>
     <string name="show_page_number">Mostrar número da página</string>
     <string name="true_32bit_color">cor de 32-bit</string>
@@ -421,7 +425,7 @@
     <string name="to_show_again_setting_library">Para mostrar esta tela novamente, vá para Configurações -> Biblioteca.</string>
     <string name="latest_">Mais recente: %1$s</string>
     <string name="migrating_to">migrando para</string>
-    <string name="dont_migrate">"Não migre"</string>
+    <string name="dont_migrate">"Não migrar"</string>
     <string name="search_manually">Pesquise manualmente</string>
     <string name="migrate_now">Migrar agora</string>
     <string name="copy_now">Copiar agora</string>
@@ -490,6 +494,7 @@
     <string name="restore_completed_content">A restauração levou %1$s. %2$s erros encontrados.</string>
     <string name="restore_content_skipped">%1$d ignorado</string>
     <string name="restore_message">A restauração usa as fontes para obter os dados, logo cobranças poderão ser efetuadas pela sua operadora devido ao uso de dados móveis. Além disso, verifique se as fontes que requerem uma conta foram configuradas corretamente antes de iniciar a restauração.</string>
+    <string name="file_saved_at_">Arquivo salvo em %1$s</string>
     <string name="what_should_backup">Do que você deseja fazer backup?</string>
     <string name="restoring_backup">Restaurando backup</string>
     <string name="restoring_progress">Restaurando (%1$d/%2$d)</string>
@@ -522,12 +527,12 @@
     <string name="refresh_tracking_metadata">Atualizar metadados do monitoramento</string>
     <string name="updates_tracking_details">Atualiza informações como situação, avaliações e últimos capítulos lidos dos serviços de monitoramento</string>
     <string name="clean_up_downloaded_chapters">Limpar capítulos baixados</string>
-    <string name="delete_unused_chapters">Excluir arquivos inexistentes, parcialmente baixados,
-            e leia as pastas dos capítulos</string>
+    <string name="delete_unused_chapters">Excluir arquivos inexistentes, parcialmente baixados, 
+            e lê as pastas dos capítulos</string>
     <string name="starting_cleanup">Iniciando a limpeza</string>
     <string name="no_folders_to_cleanup">Nenhuma pasta para limpar</string>
     <string name="disable_battery_optimization">Desativar otimização da bateria</string>
-    <string name="disable_if_issues_with_updating">Desative isso se você estiver com problemas
+    <string name="disable_if_issues_with_updating">Desative isso se você estiver com problemas 
         para atualizar ou restaurar sua biblioteca</string>
     <string name="battery_optimization_disabled">A otimização da bateria já está desativada</string>
     <plurals name="cleanup_done">
@@ -536,7 +541,7 @@
     </plurals>
     <string name="clean_up_cached_covers">Limpar capas em cache</string>
     <string name="delete_old_covers_in_library">Exclua capas em cache antigas e não usadas de
-         mangá em sua biblioteca que foi atualizado</string>
+         mangá em sua biblioteca que foi atualizado</string>
 
     <!-- About section -->
     <string name="version">Versão</string>
@@ -601,7 +606,7 @@
     <string name="download_new_chapters">Download de novos capítulos</string>
     <string name="categories_to_include_in_download">Categorias a serem incluídas no download</string>
     <string name="delete_removed_chapters">Excluir capítulos removidos</string>
-    <string name="delete_downloaded_if_removed_online">Exclua os capítulos baixados se a fonte
+    <string name="delete_downloaded_if_removed_online">Exclua os capítulos baixados se a fonte 
         tiver removido o capítulo online</string>
     <string name="ask_on_chapters_page">Excluir durante atualizações globais, pergunte na página de capítulos</string>
     <string name="always_keep">Sempre manter</string>
