@@ -189,7 +189,7 @@
     <!-- Recents -->
     <string name="recents">Recentes</string>
     <string name="updates">Atualizações</string>
-    <string name="newly_added">Recentemente adicionado</string>
+    <string name="newly_added">Adicionado recentemente</string>
     <string name="history">Histórico</string>
     <string name="recent_updates">Atualizações da biblioteca</string>
     <string name="this_will_remove_the_read_date_for_x_question">Isso removerá a data de leitura de
