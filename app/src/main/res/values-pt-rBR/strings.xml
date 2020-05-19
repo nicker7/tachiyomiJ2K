@@ -84,7 +84,6 @@
     <string name="rename_category">Renomear categoria</string>
     <string name="move_to_categories">Mover para categorias</string>
     <string name="add_to_categories">Escolha a quais categorias adiciono-lo. Se nenhum for selecionado, ele será adicionado à categoria padrão</string>
-    <string name="hide_categories">Ocultar categorias</string>
     <plurals name="category">
         <item quantity="one">%d categoria</item>
         <item quantity="other">%d categorias</item>
@@ -115,6 +114,7 @@
         à sua biblioteca na aba Navegar.</string>
     <string name="no_matches_for_filters">Não foram encontradas correspondências para os seus filtros atuais</string>
     <string name="show_all_categories">Mostrar todas as categorias</string>
+    <string name="always_show_current_category">Sempre mostrar categoria atual</string>
     <string name="expand_all_categories">Expandir todas as categorias</string>
     <string name="collapse_all_categories">Recolher todas as categorias</string>
     <string name="reorder_filters">Reordenar filtros</string>
@@ -123,6 +123,9 @@
 
     <string name="read_progress">Leitura em progresso</string>
     <string name="series_type">Tipo de série</string>
+    <string name="group_library_by">Agrupar biblioteca por…</string>
+    <string name="tracking_status">Status de monitoramento</string>
+    <string name="ungrouped">Desagrupado</string>
 
     <!-- Library Sort -->
     <string name="sort_by_">Classifique por: %1$s</string>
@@ -713,6 +716,7 @@
     <string name="sort_and_filter">Classificar &amp; Filtrar</string>
     <string name="start">Iniciar</string>
     <string name="stop">Parar</string>
+    <string name="tag">Tag</string>
     <string name="top">Início</string>
     <string name="undo">Desfazer</string>
     <string name="unknown_error">Erro desconhecido</string>
