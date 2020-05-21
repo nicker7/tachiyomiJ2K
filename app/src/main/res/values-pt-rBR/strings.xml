@@ -170,6 +170,10 @@
         <item quantity="one">e mais %1$d capítulo</item>
         <item quantity="other">e mais %1$d capítulos</item>
     </plurals>
+    <plurals name="notification_update_failed">
+        <item quantity="one">1 atualização falhou</item>
+        <item quantity="other">%1$d atualizações falharam</item>
+    </plurals>
 
     <!-- Library settings -->
     <string name="library_update_frequency">Frequência de atualização da biblioteca</string>
@@ -181,13 +185,12 @@
     <string name="sort_by_ignoring_articles">Classificar por ignorar artigos</string>
     <string name="when_sorting_ignore_articles">Ao classificar em ordem alfabética, ignore artigos 
     (a, an, the) no início dos títulos de mangá</string>
-    <string name="use_last_saved_migration_preferences">Usar as últimas preferências de pré-migração 
-    salvas e fontes para migrar em massa</string>
     <string name="categories_to_include_in_global_update">Categorias a serem incluídas na atualização global</string>
     <string name="include_in_global_update">Incluir na atualização global</string>
     <string name="auto_refresh_covers">Atualizar automaticamente as capas</string>
     <string name="auto_refresh_covers_summary">Atualizar capas na biblioteca também 
         ao atualizar a biblioteca</string>
+    <string name="show_notification_error">Mostrar uma notificação de erros</string>
 
     <!-- Recents -->
     <string name="recents">Recentes</string>
@@ -224,7 +227,6 @@
     <string name="local_source">Fonte local</string>
     <string name="other">Outras</string>
     <string name="global_search">Pesquisa global…</string>
-    <string name="view_latest">Ver mais recente</string>
     <string name="latest">Mais recente</string>
     <string name="browse">Navegar</string>
     <string name="in_library">Na Biblioteca</string>
@@ -241,7 +243,6 @@
     <!-- Extensions -->
     <string name="extensions">Extensões</string>
     <string name="extension_updates">Atualizações da extensão</string>
-    <string name="notify_extension_updates">Notificar quando atualizações de extensão estiverem disponíveis</string>
     <string name="extension_info">Informações da extensão</string>
     <string name="details">Detalhes</string>
     <string name="obsolete">Obsolete</string>
@@ -415,6 +416,7 @@
     <string name="add_tracking">Adicionar ao monitoramento</string>
 
     <!-- Migration -->
+    <string name="select_target_sources">Selecionar fontes de destino</string>
     <string name="source_migration">Migrar fonte</string>
     <string name="migration">Migração</string>
     <string name="skip_pre_migration">Ignorar pré-migração</string>
@@ -545,6 +547,22 @@
     <string name="clean_up_cached_covers">Limpar capas em cache</string>
     <string name="delete_old_covers_in_library">Exclua capas em cache antigas e não usadas de
          mangá em sua biblioteca que foi atualizado</string>
+
+    <!-- Browse Settings -->
+    <string name="pref_global_search">Pesquisa global</string>
+    <string name="check_for_extension_updates">Verifique se há atualizações de extensão</string>
+    <string name="only_search_pinned_when">Pesquisar apenas fontes fixadas</string>
+    <string name="match_pinned_sources">Corresponder às fontes fixadas</string>
+    <string name="match_enabled_sources">Corresponder às fontes ativadas</string>
+    <string name="only_enable_pinned_for_migration">Ative apenas suas fontes fixadas
+        para migração</string>
+    <string name="only_enable_enabled_for_migration">Ative apenas suas fontes ativadas atualmente
+        para migração</string>
+    <string name="use_last_saved_migration_preferences">Usar as últimas preferências de pré-migração 
+    salvas e fontes para migrar em massa</string>
+    <string name="migration_sources_set">Conjunto de fontes de migração</string>
+    <string name="you_can_migrate_in_library">Você também pode migrar selecionando mangá
+        na sua biblioteca</string>
 
     <!-- About section -->
     <string name="version">Versão</string>
