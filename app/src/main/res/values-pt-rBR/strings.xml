@@ -545,8 +545,8 @@
         <item quantity="other">Limpeza realizada. %d pastas removidas</item>
     </plurals>
     <string name="clean_up_cached_covers">Limpar capas em cache</string>
-    <string name="delete_old_covers_in_library">Exclua capas em cache antigas e não usadas de
-         mangá em sua biblioteca que foi atualizado</string>
+    <string name="delete_old_covers_in_library_used_">Exclua capas em cache antigas e não usadas de
+         mangá em sua biblioteca que foi atualizado. \nAtualmente usando: %1$s</string>
 
     <!-- Browse Settings -->
     <string name="pref_global_search">Pesquisa global</string>
