@@ -291,6 +291,8 @@
     <string name="double_tap_anim_speed">Velocidade da animação de toque duplo</string>
     <string name="show_page_number">Mostrar número da página</string>
     <string name="true_32bit_color">cor de 32-bit</string>
+    <string name="reduces_banding_impacts_performance">Reduz a formação de faixas, mas
+        afeta desempenho</string>
     <string name="crop_borders">Aparar bordas</string>
     <string name="use_custom_brightness">Usar brilho personalizado</string>
     <string name="use_custom_color_filter">Usar filtro de cores personalizado</string>
@@ -302,6 +304,7 @@
     <string name="burn_darken">Escurecer</string>
     <string name="keep_screen_on">Manter a tela ligada</string>
     <string name="skip_read_chapters">Pular capítulos lidos</string>
+    <string name="skip_filtered_chapters">Ignorar capítulos filtrados</string>
     <string name="navigation">Navegação</string>
     <string name="volume_keys">Botões de volume</string>
     <string name="invert_volume_keys">Inverter botões de volume</string>
@@ -317,7 +320,7 @@
     <string name="right_to_left_viewer">Da direita para esquerda</string>
     <string name="vertical_viewer">Vertical</string>
     <string name="continuous_vertical">Vertical contínuo</string>
-    <string name="pager_viewer">Leitor</string>
+    <string name="paged">Paged</string>
     <string name="scale_type">Tipo de escala</string>
     <string name="fit_screen">Ajustar à tela</string>
     <string name="stretch">Estender</string>
@@ -335,6 +338,8 @@
     <string name="smart_based_on_page">Inteligente (com base na página)</string>
     <string name="smart_based_on_page_and_theme">Inteligente (com base na página e no tema)</string>
     <string name="always_show_chapter_transition">Mostrar sempre a transição do capítulo</string>
+    <string name="if_disabled_transition_will_skip">Se desativada, a página de transição será
+        pulado se o próximo capítulo for carregado</string>
     <string name="pref_webtoon_side_padding">Preenchimento lateral</string>
     <string name="webtoon_side_padding_0">Nenhum</string>
     <string name="webtoon_side_padding_10">10%</string>
@@ -386,6 +391,7 @@
     <string name="failed_to_update_cover">Erro ao atualizar a capa</string>
     <string name="must_be_in_library_to_edit">O mangá deve estar em sua biblioteca para editar</string>
     <string name="remember_this_choice">Lembre-se desta opção</string>
+    <string name="source_not_installed">Fonte não instalada</string>
     <plurals name="deleted_chapters">
         <item quantity="one">Um capítulo foi removido da fonte:\n%2$s\nExcluir
             seu download?</item>
@@ -420,14 +426,16 @@
     <string name="source_migration">Migrar fonte</string>
     <string name="migration">Migração</string>
     <string name="skip_pre_migration">Ignorar pré-migração</string>
-    <string name="select_a_source_to_migrate_from">Selecione uma fonte para migrar de</string>
+    <string name="select_a_source_then_item_to_migrate">Selecione uma fonte e selecione um
+        item para migrar</string>
     <string name="data_to_include_in_migration">Dados a serem incluídos na migração</string>
     <string name="search_parameter_eg">Parâmetro de pesquisa (por exemplo, idioma: inglês)</string>
     <string name="include_extra_search_parameter">Incluir parâmetro de pesquisa extra ao pesquisar</string>
     <string name="use_most_chapters">Use a fonte com mais capítulos (mais lento)</string>
     <string name="use_first_source">Use a primeira fonte como alternativa</string>
     <string name="skip_this_step_next_time">Pule esta etapa da próxima vez</string>
-    <string name="to_show_again_setting_library">Para mostrar esta tela novamente, vá para Configurações -> Biblioteca.</string>
+    <string name="to_show_again_setting_sources">Para mostrar esta tela novamente, vá para
+        Configurações -> Fontes.</string>
     <string name="latest_">Mais recente: %1$s</string>
     <string name="migrating_to">migrando para</string>
     <string name="dont_migrate">"Não migrar"</string>
@@ -438,8 +446,8 @@
     <string name="migrate">Migrar</string>
     <string name="migrate_">Migrar %1$s</string>
     <string name="copy_value">Copiar</string>
-    <string name="no_chapters_found_for_migration">Nenhum capítulo encontrado, este mangá não pode ser usado para
-        migração</string>
+    <string name="no_chapters_found_for_migration">Nenhum capítulo encontrado, este mangá não
+        pode ser usado para migração</string>
     <string name="no_alternatives_found">Nenhuma alternativa encontrada</string>
     <string name="stop_migrating">Parar de migrar?</string>
     <plurals name="migrate_manga">
